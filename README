@@ -1,0 +1,23 @@
+# Web Scraping Using Jaunt
+
+This repo contains two Java programs that both make use of Jaunt to scrape static and dynamic websites.
+
+## Wikipedia Scraper
+
+To compile and run this program, run the following command:
+
+```bash
+java -cp '.:jaunt1.6.1.jar' WikipediaScraper.java
+```
+
+This will print the title of the target webpage and the list of hyperlinks provided in the references section
+
+## Dynamic Scraper
+
+To compile and run this program, run the following command:
+
+```bash
+java -cp '.:jaunt1.6.1.jar' DynamicScraper.java
+```
+
+This will save two files in the working directory, with data of Hockey teams' performance from the sandbox website <https://www.scrapethissite.com/pages/forms/>.
